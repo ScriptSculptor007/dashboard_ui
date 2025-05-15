@@ -1,0 +1,40 @@
+@import '../styles/variables.scss';
+
+// Logo styling
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+// Mobile-only view message
+.mobile-view {
+    padding: 2rem;
+    text-align: center;
+}
+
+// Drawer (Sidebar)
+.drawer {
+    background-color: $primary-bg;
+    color: $white;
+    box-sizing: border-box;
+    transition: width $transition-duration ease;
+}
+
+.drawer-open {
+    width: 200px !important;
+}
+
+.drawer-closed {
+    width: 60px !important;
+}
+
+// List Icons
+.list-icon {
+    color: $white;
+    font-size: 1.5rem;
+}
+
+// List text
+.list-text {
+    font-size: 1rem;
+}

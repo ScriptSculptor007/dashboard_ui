@@ -1,0 +1,17 @@
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .filter-button {
+        background-color: #235cf4;
+        color: #fff;
+        border-radius: 40px;
+        padding: 8px 16px;
+        text-transform: none;
+
+        &:hover {
+            background-color: darken(#235cf4, 10%);
+        }
+    }
+}

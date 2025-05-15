@@ -1,0 +1,13 @@
+@import '../../styles/_variables.scss'; // Import common variables
+
+.circular-icon-button {
+    .icon-button {
+        background-color: rgba(35, 92, 244, 1); // Blue background
+        color: $secondary-color; // White icon color
+        padding: $spacing-small; // Padding inside the button
+
+        &:hover {
+            background-color: rgba(35, 92, 244, 0.8); // Slightly lighter on hover
+        }
+    }
+}

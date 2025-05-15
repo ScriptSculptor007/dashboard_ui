@@ -1,0 +1,25 @@
+@import '../../styles/_variables.scss'; // Import common variables
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 4px 12px;
+    width: 100%;
+    max-width: 400px;
+
+    .search-input {
+        flex: 1;
+        color: inherit;
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.6); // Placeholder color
+        }
+    }
+
+    .info-icon {
+        color: inherit;
+    }
+}

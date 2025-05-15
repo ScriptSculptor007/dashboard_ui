@@ -1,0 +1,16 @@
+.common-button {
+    border-radius: 40px; // Rounded corners
+    padding: 8px 16px; // Add padding
+    text-transform: none; // Prevent uppercase text
+    font-size: 14px; // Adjust font size
+
+    &:hover {
+        background-color: #1890ff; // Optional: Change background color on hover
+        color: #fff; // Ensure text color is white
+    }
+
+    &:focus {
+        outline: none; // Remove focus outline
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2); // Add focus shadow
+    }
+}

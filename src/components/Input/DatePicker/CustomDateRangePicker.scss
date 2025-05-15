@@ -1,0 +1,21 @@
+.custom-date-range-picker {
+    .date-range-picker {
+        width: 100%; // Optional: Adjust width as needed
+        padding: 8px; // Add padding
+        border-radius: 40px; // Rounded corners
+        border: 1px solid #ccc; // Optional: Add a border color
+        box-shadow: none; // Remove any default shadow
+
+        .ant-picker-input {
+            border-radius: 40px; // Ensure input fields also have rounded corners
+        }
+
+        &:hover {
+            border-color: #40a9ff; // Optional: Change border color on hover
+        }
+
+        &:focus-within {
+            border-color: #1890ff; // Optional: Change border color when focused
+        }
+    }
+}
